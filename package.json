@@ -1,0 +1,34 @@
+{
+  "name": "project-fizzbuzz-tdd",
+  "version": "1.0.0",
+  "description": "Project developed during the Javascript course with TDD in practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:tdd": "jest --watch",
+    "test:cov": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djailtim/project-fizzbuzz-tdd.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "fizzbuzz",
+    "tdd",
+    "jstdd"
+  ],
+  "author": "Ailton Ferreira Luz <djailtim@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/djailtim/project-fizzbuzz-tdd/issues"
+  },
+  "homepage": "https://github.com/djailtim/project-fizzbuzz-tdd#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "babel-jest": "^28.1.0",
+    "eslint": "^8.15.0",
+    "jest": "^28.1.0"
+  }
+}
